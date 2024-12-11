@@ -31,5 +31,8 @@ RoleRepo roleRepo;
 
 
     }
+    public Role findByName(String name ){
+     return roleRepo.findByName(name);
+    };
 
 }
